@@ -1,0 +1,26 @@
+자료형이란?
+변수에 저장할 수 있는 값의 종류를 자료형이라고 한다.
+자료형의 종류
+number Type: 숫자
+
+var a=100, b=3.14;
+string Type: 문자열
+
+var c="안녕하세요", d="a";
+boolean Type: 맞다/틀리다를 표현
+
+var e = true, f = false;
+typeof() 명령어
+typeof 뒤에 따라오는 괄호 안에 들어있는 변수의 type을 알려주는 명령어
+
+var a=100;
+console.log(a,typeof(a));
+//100 "number"라고 출력
+
+var c="안녕하세요";
+console.log(c,typeof(c));
+//안녕하세요 "string"라고 출력
+
+var e=true;
+console.log(e,typeof(e));
+//true "boolean"라고 출력
