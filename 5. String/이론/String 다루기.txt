@@ -1,0 +1,27 @@
+특정 위치의 문자열 알아내기
+
+.charAt 함수 이용
+첫 문자 : str.charAt(0)
+마지막 문자 : str.charAt(str.length-1)
+* charAt를 썼을 때 문자열 범위 내를 벗어나면 빈 공백이 출력된다.
+
+대괄호([]) 사용
+첫 문자 : str[0]
+마지막 문자 : str[str.length-1]
+* 대괄호를 썼을 때 문자열 범위 내를 벗어나면 Undefined가 출력된다.
+
+부분문자열 구하기
+문자열의 연속된 일부분을 구하는 함수
+
+.substring(pos1, pos2) : pos1 에서 pos2 전 까지의 부분 문자열 반환
+pos2 생략시 pos1에서부터 마지막 까지의 문자열 반환
+
+substr(pos, length) : pos에서 length길이 만큼의 부분 문자열 반환
+length 생략시, pos에서 마지막까지의 문자열 반환
+pos 가 음수인 경우, str.length - pos 로 동작
+
+문자열 검색하기
+- 문자열 내에서 주어진 문자열이 존재하는 위치를 찾아서 반환해주는 명령어
+indexOf(str) : 문자열이 있는 경우 해당 시작 위치를 반환해준다.
+lastIndexOf(str) : 문자열이 있는 경우 해당 마지막 위치를 반환해준다.
+* 존재하지 않는 경우 -1이 출력된다.
