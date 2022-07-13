@@ -15,3 +15,9 @@
 JavaScript code 기초 이해하기! <br>
 배운 내용 기록하고 잘 정리하기! <br>
 배운 내용을 바탕으로 실습 문제 통과하기! <br>
+
+
+🔭 Studying 🔭
+
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/></a> 
+  <img src="https://img.shields.io/badge/JavaScript-FFD700?style=flat-square&logo=JavaScript&logoColor=white"/></a>
